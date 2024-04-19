@@ -71,7 +71,7 @@ function App() {
       {electronics && clothing && toys && (
         <>
           <Section
-            title={"Clothing & Jewelry"}
+            title={"Fashion"}
             items={clothing}
             togglePop={togglePop}
           />

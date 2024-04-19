@@ -7,18 +7,18 @@
 }
 
 :root {
-  --clr-white: #FFFFFF;
-  --clr-black: #000000;
-  --clr-grey: #707070;
-  --clr-bunker: #131921;
-  --clr-ebony-clay: #232f3e;
-  --clr-orange: #FF9900;
-  --clr-orange-dark: #cc8111;
+  --clr-white: white;
+  --clr-black: black;
+  --clr-grey: #eee;
+  --clr-bunker: red;
+  --clr-ebony-clay: red;
+  --clr-orange: yellow;
+  --clr-orange-dark: yellow;
 }
 
 body {
   margin: 0;
-  font-family: "Open Sans";
+  font-family: "Poppins";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,7 +26,6 @@ body {
 h2 {
   max-width: 1200px;
   margin: 20px auto 0;
-
   font-size: 2.15em;
 }
 
@@ -52,7 +51,7 @@ nav {
 }
 
 .nav__brand img {
-  max-width: 125px;
+  max-width: 120px;
   height: auto;
 }
 
